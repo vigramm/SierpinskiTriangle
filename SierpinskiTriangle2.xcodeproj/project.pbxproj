@@ -14,6 +14,10 @@
 		9CBBCADB215D633200FCDF8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CBBCAD9215D633200FCDF8C /* LaunchScreen.storyboard */; };
 		9CBBCAE6215D633200FCDF8C /* SierpinskiTriangle2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBBCAE5215D633200FCDF8C /* SierpinskiTriangle2Tests.swift */; };
 		9CBBCAF1215D633200FCDF8C /* SierpinskiTriangle2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBBCAF0215D633200FCDF8C /* SierpinskiTriangle2UITests.swift */; };
+		9CBBCAFF215D661800FCDF8C /* Points.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBBCAFE215D661800FCDF8C /* Points.swift */; };
+		9CBBCB01215D66D500FCDF8C /* drawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBBCB00215D66D500FCDF8C /* drawView.swift */; };
+		9CBBCB03215D7AB200FCDF8C /* newCoordinatesHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBBCB02215D7AB200FCDF8C /* newCoordinatesHelper.swift */; };
+		9CBBCB05215D8B8D00FCDF8C /* drawHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBBCB04215D8B8D00FCDF8C /* drawHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		9CBBCAEC215D633200FCDF8C /* SierpinskiTriangle2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SierpinskiTriangle2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CBBCAF0215D633200FCDF8C /* SierpinskiTriangle2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SierpinskiTriangle2UITests.swift; sourceTree = "<group>"; };
 		9CBBCAF2215D633200FCDF8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CBBCAFE215D661800FCDF8C /* Points.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Points.swift; sourceTree = "<group>"; };
+		9CBBCB00215D66D500FCDF8C /* drawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drawView.swift; sourceTree = "<group>"; };
+		9CBBCB02215D7AB200FCDF8C /* newCoordinatesHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newCoordinatesHelper.swift; sourceTree = "<group>"; };
+		9CBBCB04215D8B8D00FCDF8C /* drawHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drawHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 			children = (
 				9CBBCAD0215D633000FCDF8C /* AppDelegate.swift */,
 				9CBBCAD2215D633000FCDF8C /* ViewController.swift */,
+				9CBBCB00215D66D500FCDF8C /* drawView.swift */,
+				9CBBCB04215D8B8D00FCDF8C /* drawHelpers.swift */,
+				9CBBCB02215D7AB200FCDF8C /* newCoordinatesHelper.swift */,
+				9CBBCAFE215D661800FCDF8C /* Points.swift */,
 				9CBBCAD4215D633000FCDF8C /* Main.storyboard */,
 				9CBBCAD7215D633200FCDF8C /* Assets.xcassets */,
 				9CBBCAD9215D633200FCDF8C /* LaunchScreen.storyboard */,
@@ -256,7 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CBBCB03215D7AB200FCDF8C /* newCoordinatesHelper.swift in Sources */,
+				9CBBCB05215D8B8D00FCDF8C /* drawHelpers.swift in Sources */,
 				9CBBCAD3215D633000FCDF8C /* ViewController.swift in Sources */,
+				9CBBCAFF215D661800FCDF8C /* Points.swift in Sources */,
+				9CBBCB01215D66D500FCDF8C /* drawView.swift in Sources */,
 				9CBBCAD1215D633000FCDF8C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
